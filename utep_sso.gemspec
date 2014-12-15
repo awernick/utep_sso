@@ -5,11 +5,11 @@ require 'utep_sso/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "utep_sso"
-  spec.version       = UtepSso::VERSION
+  spec.version       = UTEPSSO::VERSION
   spec.authors       = ["Alan Wernick"]
   spec.email         = ["alan.wernik@gmail.com"]
-  spec.summary       = %q{UTEP SingleSignOn Authentication}
-  spec.description   = %q{Fetch UTEP user information using the SingleSignOn service}
+  spec.summary       = %q{TOO: Write a short summary. Required.}
+  spec.description   = %q{TOO: Write a longer description. Optional.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_dependency 'savon', '~> 2.8.0'
+  spec.add_dependency "savon", "~> 2.8.0"
 end

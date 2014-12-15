@@ -2,7 +2,7 @@ require "utep_sso/version"
 require 'savon'
 
 module UTEPSSO
-  @client = Savon.client(wsdl: 'http://websvs.utep.edu/databaseservices/public/ExternalSignon.asmx?wsdl')
+   @client = Savon.client(wsdl: 'http://websvs.utep.edu/databaseservices/public/ExternalSignon.asmx?wsdl')
 
   #{:get_user_by_ssiu_result=>{:user_name=>"awernick", :full_name=>"Alan Wernick, :email_address=>"awernick@miners.utep.edu", :authenticated=>true, :role_value=>"1080", :external_user=>false}, :@xmlns=>"http://tempuri.org/"}
   def self.authenticate(utep_cookie, utep_salt)
