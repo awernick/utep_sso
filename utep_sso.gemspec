@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = UTEPSSO::VERSION
   spec.authors       = ["Alan Wernick"]
   spec.email         = ["alan.wernik@gmail.com"]
-  spec.summary       = %q{TOO: Write a short summary. Required.}
-  spec.description   = %q{TOO: Write a longer description. Optional.}
+  spec.summary       = %q{UTEP SingleSignOn Authentication for Ruby}
+  spec.description   = %q{Fetch user information using UTEP's Single Sign On service}
   spec.homepage      = ""
   spec.license       = "MIT"
 

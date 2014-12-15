@@ -1,4 +1,4 @@
-# UtepSso
+# UTEP SingleSignOn for Ruby
 
 TODO: Write a gem description
 
