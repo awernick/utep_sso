@@ -21,6 +21,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+
+require 'utep_sso'
+
+
 # Check if a user is signed in
 UTEPSSO.authenticated?(cookies[:UTEP_SE], cookies[:UTEP_SA])
 

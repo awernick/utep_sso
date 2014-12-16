@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alan.wernik@gmail.com"]
   spec.summary       = %q{UTEP SingleSignOn Authentication for Ruby}
   spec.description   = %q{Fetch user information using UTEP's Single Sign On service}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/awernick/utep_sso"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
