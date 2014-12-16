@@ -33,7 +33,7 @@ UTEPSSO.authenticate(cookies[:UTEP_SE], cookies[:UTEP_SA])
 #  000100 = staff
 #  010000 = student
 
-# 010110 = user that is a student, faculty and staff 
+#  010110 = user that is a student, faculty and staff 
 
 # Deauthenticate a user
 UTEPSSO.deauthenticate(cookies[:UTEP_SE], cookies[:UTEP_SA])
@@ -42,7 +42,7 @@ UTEPSSO.deauthenticate(cookies[:UTEP_SE], cookies[:UTEP_SA])
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/utep_sso/fork )
+1. Fork it ( https://github.com/awernick/utep_sso/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
