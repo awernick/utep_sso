@@ -32,7 +32,7 @@ UTEPSSO.authenticated?(cookies[:UTEP_SE], cookies[:UTEP_SA])
 UTEPSSO.authenticate(cookies[:UTEP_SE], cookies[:UTEP_SA])
 # => {:user_name, :full_name, :email_address, :authenticated, :role_value, :external_user, :@xmlns}
 
-# roles are returned as a binary
+# roles are returned as a bit mask
 #  000010 = faculty
 #  000100 = staff
 #  010000 = student
